@@ -1,0 +1,17 @@
+* CFEngine Enterprise Vagrant Quickstart
+A quick way to bring up a CFEngine Enterprise environment.
+
+To initalize a stock environment with one hub and one client
+
+#+begin_src sh
+  vagrant up
+#+end_src
+
+
+It can also be very useful as a test or development enviornment with
+your own masterfiles. To bring up an environment with your own
+masterfiles run.
+
+#+begin_src sh
+  MASTERFILES=/path/to/my/masterfiles vagrant up
+#+end_src
